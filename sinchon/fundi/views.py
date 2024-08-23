@@ -151,10 +151,6 @@ class MoneyListView(views.APIView):
             moneylists = moneylists.filter(expense=expense).order_by('-id')
 
         serializer = MoneyListSerializer(moneylists, many=True)
-        # serialized_data = serializer.data.copy()
-
-        # for item in serialized_data:
-        #    item.update({'total': event.budget})
 
         return Response({
             'message': 'MoneyList get 성공',
@@ -206,7 +202,7 @@ class DashboardView(views.APIView):
             'snack_percentage': (forSnack / total_count * 100) if total_count else 0,
             'promotion_percentage': (forPromotion / total_count * 100) if total_count else 0,
             'subsidy_percentage': (forSubsidy / total_count * 100) if total_count else 0
-        }
+        } 
 
         return Response({
             'message': 'Dashboard data created',
