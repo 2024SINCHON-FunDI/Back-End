@@ -1,6 +1,9 @@
 # 2024SINCHONTHON-backendRepo
 2024 신촌톤 : SINCHONTHON Team5 - FunDI
 
+[신촌톤 대상 수상]
+![image](https://github.com/user-attachments/assets/08a63c04-fc6d-4697-9544-8e1394f37493)
+
 <br><br>
 
 ## 프로젝트 소개 :  💳 FunDI 💳
